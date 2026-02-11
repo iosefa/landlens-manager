@@ -1,0 +1,10 @@
+name: landlens-manager
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - gdal
+  - pip
+  - pip:
+      - landlensdb
+      - python-dotenv
